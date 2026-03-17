@@ -1,0 +1,11 @@
+footer {
+    background-color: #21222A;
+    color: white;
+    height: 5rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21222A;
+}

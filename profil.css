@@ -1,0 +1,138 @@
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21222A;
+    color: white;
+}
+
+.header-logo {
+    width: 3.2rem;
+}
+
+.header-logo img {
+    height: 2rem;
+}
+
+/* Main Section */
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #111112;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile Section */
+
+.profile {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 80%;
+}
+.profile-name-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-name-image img {
+    border-radius: 50%;
+}
+
+.profile-user-name {
+    font-size: 3.2rem;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
+.profile-stats {
+    margin-top: 2rem;
+}
+
+.profile-stats li {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-right: 4rem;
+}
+
+.profile-bio {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2.3rem;
+}
+
+/* Card List Section */
+.card-list {
+	display: block;
+	margin: 1rem auto;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.card {
+	display: inline-block;
+	width: 90%;
+	max-width: 20rem;
+	margin: 1rem;
+	font-size: 1rem;
+	text-decoration: none;
+	overflow: hidden;
+	transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.card:hover {
+	transform: translateY(-0.5rem) scale(1.0125);
+	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+}
+
+.card-image {
+	height: 20rem;
+}
+
+.card-description {
+	padding: 1em 0.5em;
+	color: rgba(255, 255, 255, 0.759);
+}
+
+.card-description > h2 {
+	margin: 0 0 0.5em;
+}
+
+.card-description > p {
+	margin: 0;
+}
+
+
+/* Footer */
+footer {
+    background-color: #21222A;
+    color: white;
+    height: 5rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21222A;
+}
